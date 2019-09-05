@@ -1,3 +1,11 @@
 body {
     background-color: slategray;
 }
+
+.jumbotron {
+    margin: 1em;
+}
+
+.card {
+    margin: 1em;
+}
