@@ -16,15 +16,25 @@
         <p class="lead">Allow our magic sorter to work it's magic!!</p>
         <hr class="my-4">
         <p>Click the button below to begin SORTING</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Let's start sorting</a>
+        <button type="button" class="btn btn-primary" onclick="displayEnterName()">Let's start sorting</button>
       </div>
 
+    <div id="enterName">
       <div class="card">
-            <header>Enter Name</header>
-            <input class="form-control" type="text" placeholder="Student Name">
-
+            <pre>     Enter Name</pre>
+            <div class="container-fluid">
+              <div class="row">
+                  <p class="student col-lg-4">Student:</p>
+                  <input class="form-control col-lg-4" type="text" placeholder="Student Name" id="StudentName">
+                  <button type="button" class="btn btn-light sortButton" id="sortButton">Sort!</button>
+              </div>
+            </div>
         </div>
-      </div>
+    </div>
+
+    
+
+    <div id="card"></div>
 
     <script src="./main.js"></script>
 </body>

@@ -9,3 +9,12 @@ body {
 .card {
     margin: 1em;
 }
+
+.student {
+    text-align: right;
+}
+
+.sortButton {
+    width: 7em;
+}
+
